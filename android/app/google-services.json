@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "640712128382",
+    "project_id": "notesapp-cd2dd",
+    "storage_bucket": "notesapp-cd2dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640712128382:android:277b48a30915be8e6d652f",
+        "android_client_info": {
+          "package_name": "com.example.ad_exam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCmOUlivmKaFLtHD-5Pj7Ok9mqKA_WikA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

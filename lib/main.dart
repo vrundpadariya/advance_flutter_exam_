@@ -8,6 +8,7 @@ void main(){
   runApp(){
    GetMaterialApp(
     debugShowCheckedModeBanner: false,
+    theme: ThemeData(useMaterial3: true),
     getPages: [
       GetPage(name: '/', page: () => SplashScreen(),),
       GetPage(name: '/home', page: () => homepage(),),

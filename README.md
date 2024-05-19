@@ -1,16 +1,14 @@
-# ad_exam
+Notes App
+Key Features:
+Add Note (Firestore)
 
-A new Flutter project.
+Users can create and store notes in Firestore, a cloud-hosted NoSQL database that provides real-time synchronization.
+Each note can include a title, content, timestamp, and other metadata.
+Like Note (SQL)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Users can like notes, and these likes are managed using a SQL database.
+Each note’s like count is tracked, allowing users to see the most popular notes.
+The SQL database ensures efficient querying and updating of like counts.
+Technology Stack:
+Firestore: For handling the creation, storage, and real-time updates of notes.
+SQL Database: For managing user interactions like liking notes, ensuring quick access and updates.
